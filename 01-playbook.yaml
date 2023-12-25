@@ -1,10 +1,10 @@
-# Playbook is list of plays, alwas it should start with -
+---
+# Playbook is a list of plays, always starting with -
 - name: ping the node
   hosts: mongodb
-  # this is list of tasks/modules/collections
+  # This is a list of tasks/modules/collections
   tasks:
   - name: pinging the server
-    # this is the map
+    # This is a map, ensure proper indentation
     ansible.builtin.ping:
-  
-  
+

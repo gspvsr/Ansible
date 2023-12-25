@@ -1,5 +1,5 @@
 [mongodb]
-roboshop-in-prod-app-db-01.gspaws.online
+roboshop-in-prod-app-mongodb-01.gspaws.online
 
 [mysql]
 roboshop-in-prod-app-mysql-01.gspaws.online

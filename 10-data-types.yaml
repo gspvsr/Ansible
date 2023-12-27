@@ -15,16 +15,16 @@
   tasks:
   - name: print number variable
   ansible.builtin.debug:
-    msg: "{{AGE}}"
+    msg: "{{ AGE }}"
   - name: print string variables
   ansible.builtin.debug:
-    msg: {{NAME}}
+    msg: {{ NAME }}
   - name: print boolean variable
   ansible.builtin.debug:
-    msg: "{{isDevOps}}"
+    msg: "{{ IsDevOps }}"
   - name: print list variable
   ansible.builtin.debug:
-    msg: "{{Skills}}"
+    msg: "{{ Skills }}"
   - name: print map variable
   ansible.builtin.debug:
-    msg: "{{EXPERIENCE}}"
+    msg: "{{ EXPERIENCE }}"

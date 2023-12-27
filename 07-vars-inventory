@@ -1,4 +1,4 @@
-- names: variables from inventory
+- name: variables from inventory
   hosts: mongodb
   taks:
   - name: print mongodb username

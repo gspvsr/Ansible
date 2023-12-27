@@ -1,5 +1,5 @@
 - names; variables from inventory
-  hots: mongodb
+  hosts: mongodb
   taks:
   - name: print mongodb username
     ansible.builtin.debug:

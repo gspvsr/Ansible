@@ -5,7 +5,7 @@
     prompt: Please enter your username
     private: false # you can see the value entered on screen
   - name: PASSWORD
-    promt: please enter password
+    prompt: please enter password
     private: ture 
   tasks:
   - name: print variable values

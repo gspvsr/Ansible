@@ -1,8 +1,10 @@
-- name : variables from files
-  hosts: mongodb #managing the ansible server it self.
+---
+- name: variables from files
+  hosts: localhost  # managing the ansible server itself
   vars_files:
-    - variables.yaml
+    - variable.yaml
+
   tasks:
-  - name: printing variables
-    ansible.builtin.debug:
-      msg: "we ae learning: {{NAME}}, Duration is: {{DURATION}}, Trainer is: {{TRAINER}}"
+    - name: printing variables
+      ansible.builtin.debug:
+        msg: "we are learning: {{ NAME }}, Duration is: {{ DURATION }}, Trainer is: {{ TRAINER }}"

@@ -1,7 +1,7 @@
 - name: variables from files
   hosts: localhost  # Managing the Ansible server itself
   vars_files:
-    - variables.yaml
+    - gsp.yaml
 
   tasks:
     - name: printing variables

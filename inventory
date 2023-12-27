@@ -1,7 +1,7 @@
 [mongodb]
 roboshop-in-prod-app-mongodb-01.gspaws.online
 
-[mongdb:vars]
+[mongodb:vars]
 MONG_USERNAE=mongodbadmin
 MONG_DB=categories
 

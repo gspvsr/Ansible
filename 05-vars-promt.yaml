@@ -1,4 +1,4 @@
-- name: variables from promt
+- name: variables from prompt
   hosts: localthost
   var_prompt:
   - name: USERNAME
@@ -6,8 +6,8 @@
     private: false # you can see the value entered on screen
   - name: PASSWORD
     promt: please enter password
-    private: ture
+    private: ture 
   tasks:
   - name: print variable values
-  ansible.builtin.debug:
+    ansible.builtin.debug:
     msg: "username: {{USERNAME}}, password: {{PASSWORD}}"

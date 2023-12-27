@@ -1,0 +1,6 @@
+- names; variables from inventory
+  hots: mongodb
+  taks:
+  - name: print mongodb username
+    ansible.builtin.debug:
+      msg: "username is: {{MONGO_USERNAME}}""

@@ -2,16 +2,13 @@
   hosts: mongodb
   vars:
     NAME: Sivakumar-play
-
-  #vars_files:
+  # vars_files:
   #- gsp.yaml
-
   vars_prompt:
     - name: USERNAME
       prompt: Please enter trainer name
       private: false
-
-  tasks :
+  tasks:
   - name: print variable at taks level
     ansible.builtin.debug:
       msg: "Trainer name is: {{NAME}}"
@@ -19,4 +16,4 @@
       # 1. First Preference is command line 
       # 2. Task Level
       # 3. File level
-      # 4. 
+      # 4. prompt level

@@ -1,4 +1,3 @@
----
 name: ansible variable data types
 hosts: localhost
 vars:

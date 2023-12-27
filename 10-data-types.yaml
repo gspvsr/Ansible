@@ -5,9 +5,13 @@
   - Name: "Sivakumar" #String
   - IsDevOps: Ture #Boolean
   - Skills: # list
-    - DevOps: 7
-    - AWS: 5
-    - Docker: 4
+    - DevOps
+    - AWS
+    - Docker
+  - EXPERIENCE: # list
+      DevOps: 7
+      AWS: 5
+      Docker: 4
   tasks:
   - name: print number variable
   ansible.builtin.debug:

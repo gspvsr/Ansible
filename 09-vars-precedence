@@ -14,7 +14,7 @@
 
   tasks :
   - name: print variable at taks level
-    vars:
-      NAME: Sivakumar-task
     ansible.builtin.debug:
       msg: "Trainer name is: {{NAME}}"
+
+      # 1. First Preference is command line 

@@ -4,8 +4,8 @@
   vars:
     NAME: Sivakumar-play
 
-  vars_files:
-  - gsp.yaml
+  #vars_files:
+  #- gsp.yaml
 
   vars_prompt:
     - name: USERNAME
@@ -18,3 +18,6 @@
       msg: "Trainer name is: {{NAME}}"
 
       # 1. First Preference is command line 
+      # 2. Task Level
+      # 3. File level
+      # 4. 

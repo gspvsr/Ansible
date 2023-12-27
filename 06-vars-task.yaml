@@ -1,5 +1,5 @@
 - name: variables at taks level
-  hots: localhost
+  hosts: localhost
   # there variables of parent or play level
   vars:
   - money: "10000 RS"

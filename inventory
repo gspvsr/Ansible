@@ -2,7 +2,7 @@
 roboshop-in-prod-db-mongodb-01.gspaws.online
 
 [mongodb:vars]
-MONGO_USERNAE=mongodbadmin
+MONGO_USERNAME=mongodbadmin
 MONGO_DB=categories
 
 [mysql]
